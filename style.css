@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(114, 110, 110);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.card1 {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px solid rgb(64, 66, 64);
+    transition-duration: 2s;
+}
+
+.card2 {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px solid rgb(68, 70, 68);
+    transition-duration: 2s;
+}
+
+.card3 {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px solid rgb(94, 99, 94);
+    transition-duration: 2s;
+}
+
+.card1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card3 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card1:hover {
+    transform: rotateY(180deg);
+    scale: 0.8;
+}
+
+.card2:hover {
+    transform: rotateY(180deg);
+    scale: 0.8;
+}
+
+.card3:hover {
+    transform: rotateY(180deg);
+    scale: 0.8;
+}
